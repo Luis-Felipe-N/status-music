@@ -5,12 +5,11 @@ import { BiSearch } from "react-icons/bi";
 
 import { FaBackward, FaForward, FaHouseSignal, FaPause, FaVolumeHigh, FaVolumeOff } from "react-icons/fa6";
 
-export default function Home() {
+export default function Detail() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-purple-400 to-yellow-400">
       <form className="max-w-5xl w-full" action="">
-      <Link href={"/detail"}>DETAIL</Link>
-
+        <Link href={"/"}>HOME</Link>
         <div>
           <div
             className={
@@ -35,6 +34,8 @@ export default function Home() {
           width={500}
           height={500}
         />
+        <img  className="rounded-xl"
+          src="/cover.jpeg" />
 
       <div className="my-4 overflow-hidden">
          <strong className="opacity-65">iPhone</strong>
